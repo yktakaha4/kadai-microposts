@@ -7,8 +7,11 @@
         </div>
         <%= f.submit 'Post', class: 'btn btn-primary btn-block' %>
       <% end %>
+      <div class="visible-xs visible-sm">
+        <hr>
+      </div>
     </aside>
-    <div class="col-xs-8">
+    <div class="col-md-8">
       <%= render 'microposts/microposts', microposts: @microposts %>
     </div>
   </div>
